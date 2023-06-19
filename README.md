@@ -1,8 +1,10 @@
 # TÍTULO DO PROJETO
 
 `PPC-CC: PUC Poços de Caldas - Ciência da Computação`
+
 `Disciplina: Visão Computacional e Realidade Misturada`
-`2021 - Semestre 1`
+
+`2023 - Semestre 1`
 
 ## Integrantes
 
