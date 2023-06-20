@@ -1,4 +1,4 @@
-# Proposta do Projeto Final: Detecção de Sentimentos em Tempo Real
+# Detecção de Sentimentos em Tempo Real
 
 ## Alunos
 
