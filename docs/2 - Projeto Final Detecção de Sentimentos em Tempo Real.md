@@ -34,6 +34,7 @@ A arquitetura da rede neural utilizada será uma Rede Neural Convolucional (CNN)
 - Camada de saída: Dense com ativação softmax para classificação multiclasse.
 
 As imagens de treinamento são pré-processadas utilizando uma função personalizada de pré-processamento. No código fornecido, o pré-processamento consiste em normalizar os pixels de cada imagem, dividindo-os pelo valor máximo de 255. Além disso, as variáveis de classe são convertidas em vetores one-hot.
+
 O modelo é treinado por 100 épocas com um tamanho de lote de 64 imagens. Após o treinamento, o modelo treinado é salvo em disco em dois arquivos: um arquivo de modelo JSON e um arquivo de pesos HDF5. Esses arquivos podem ser utilizados posteriormente para carregar o modelo treinado e realizar testes e inferências.
 
 ## 3.Link de Implementação de Referência
@@ -44,14 +45,20 @@ O conjunto de dados FER2013, que consiste em uma série de imagens com expressõ
 
 ## 5.Descrição da Adaptação da Implementação de Referência
 A implementação de referência do modelo de reconhecimento de expressão facial, originalmente baseada no conjunto de dados FER2013, foi significativamente modificada para permitir o reconhecimento em tempo real. O objetivo era capturar e processar expressões faciais diretamente da webcam do dispositivo, proporcionando aos usuários uma experiência interativa em tempo real.
+
 A personalização inclui a integração de bibliotecas e ferramentas especiais para acessar webcams e capturar imagens de vídeo em tempo real. Esses quadros foram processados ​​imediatamente usando um modelo treinado no conjunto de dados FER2013 para identificar as expressões faciais presentes. Isso possibilitou detectar em tempo real as emoções exibidas pelo usuário na frente da câmera.
+
 Com essa correção, o modelo de reconhecimento facial agora pode funcionar em tempo real, analisando os rostos das pessoas enquanto elas se movem e fazendo diferentes expressões faciais. Esse recurso amplia os recursos do seu modelo para que você possa usá-lo em tempo real para interagir com jogos, aplicativos de realidade aumentada, sistemas de segurança e muito mais.
+
 A adaptação bem-sucedida de nossa implementação de referência para capturar e processar imagens de webcam em tempo real representa um grande avanço no campo do reconhecimento de expressões faciais. Essa abordagem fornece aos usuários uma experiência mais imersiva e interativa, permite monitoramento instantâneo e análise de emoções exibidas em tempo real e tem potencial para várias aplicações em entretenimento, saúde mental, ciência comportamental e outros campos relacionados.
 
 ## 6.Considerações Finais
 Durante o desenvolvimento do projeto, foram feitas tentativas de realizar o ajuste automático dos hiperparâmetros a fim de otimizar o desempenho do modelo. No entanto, devido a limitações de tempo, alguns erros encontrados durante este processo não puderam ser corrigidos antes do envio da tarefa.
- Autoajuste de hiperparâmetro refere-se a técnicas e algoritmos que automatizam o processo de encontrar a combinação ideal de valores para parâmetros externos configuráveis ​​de um modelo de aprendizado de máquina. Isso é importante porque os hiperparâmetros afetam o desempenho e o comportamento do modelo.
- Existem várias abordagens para otimizar hiperparâmetros automaticamente, incluindo pesquisa em grade, pesquisa aleatória, otimização bayesiana, algoritmos genéticos e otimização de gradiente. Essas técnicas permitem que o sistema encontre com mais eficiência a configuração ideal de hiperparâmetros dadas as métricas de desempenho.
+
+Autoajuste de hiperparâmetro refere-se a técnicas e algoritmos que automatizam o processo de encontrar a combinação ideal de valores para parâmetros externos configuráveis ​​de um modelo de aprendizado de máquina. Isso é importante porque os hiperparâmetros afetam o desempenho e o comportamento do modelo.
+
+Existem várias abordagens para otimizar hiperparâmetros automaticamente, incluindo pesquisa em grade, pesquisa aleatória, otimização bayesiana, algoritmos genéticos e otimização de gradiente. Essas técnicas permitem que o sistema encontre com mais eficiência a configuração ideal de hiperparâmetros dadas as métricas de desempenho.
+
 Exemplo de código usando ajuste automático de hiperparâmetros:
  
 from sklearn.datasets import load_iris
