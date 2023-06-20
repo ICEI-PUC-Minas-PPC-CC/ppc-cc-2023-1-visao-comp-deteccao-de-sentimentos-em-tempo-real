@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# Detecção de Sentimentos em Tempo Real
 
 `PPC-CC: PUC Poços de Caldas - Ciência da Computação`
 
