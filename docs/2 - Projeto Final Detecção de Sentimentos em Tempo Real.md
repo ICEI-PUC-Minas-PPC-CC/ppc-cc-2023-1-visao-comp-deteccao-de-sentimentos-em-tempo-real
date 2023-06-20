@@ -69,20 +69,20 @@ from sklearn.ensemble import RandomForestClassifier
 
 from scipy.stats import randint
  
-# Carregando o conjunto de dados Iris
+### Carregando o conjunto de dados Iris
 iris = load_iris()
 X = iris.data
 y = iris.target 
-# Definindo o modelo
+### Definindo o modelo
 model = RandomForestClassifier()
-# Definindo a grade de valores para os hiperparâmetros
+### Definindo a grade de valores para os hiperparâmetros
 param_dist = {
 	'n_estimators': randint(100, 1000),
 	'max_depth': randint(1, 10),
 	'min_samples_split': randint(2, 20),
 	'min_samples_leaf': randint(1, 10)
 }
- # Criando o objeto RandomizedSearchCV
+### Criando o objeto RandomizedSearchCV
 random_search = RandomizedSearchCV(
 	estimator=model,
 	param_distributions=param_dist,
@@ -90,11 +90,11 @@ random_search = RandomizedSearchCV(
 	cv=5,  # número de folds na validação cruzada
 	random_state=42
 )
-# Executando a busca aleatória
+### Executando a busca aleatória
 random_search.fit(X, y)
  
-# Imprimindo os melhores hiperparâmetros encontrados
+### Imprimindo os melhores hiperparâmetros encontrados
 print("Melhores hiperparâmetros encontrados:")
 print(random_search.best_params_)
-# Imprimindo a melhor pontuação (métrica de desempenho)
+### Imprimindo a melhor pontuação (métrica de desempenho)
 print("Melhor pontuação:", random_search.best_score_)
