@@ -26,11 +26,17 @@ Certifique-se de ter as seguintes bibliotecas instaladas:
 Caso não tenha-as instaladas, você pode instalá-las executando os seguintes comandos:
 
 `pip install tensorflow`
+
 `pip install keras`
+
 `pip install numpy`
+
 `pip install sklearn`
+
 `pip install opencv-python`
+
 `pip install scikit-learn`
+
 `pip install tensorflow-gpu`
 
 ## Comentários Gerais
