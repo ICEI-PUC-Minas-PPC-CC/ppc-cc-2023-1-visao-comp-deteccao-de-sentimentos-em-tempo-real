@@ -19,8 +19,7 @@
 
 <ol>
 <li><a href="docs/1 - Documentação de Instalação.md"> Documentação de Instalação</a></li>
-<li><a href="docs/docs/2 - Projeto Final Detecção de Sentimentos em Tempo Real.md"> Projeto Final</a></li>
-<li><a href="docs/3-Projeto de Interface.md"> Projeto de Interface</a></li>
+<li><a href="docs/2 - Projeto Final Detecção de Sentimentos em Tempo Real.md"> Projeto Final</a></li>
 </ol>
 
 # Código
