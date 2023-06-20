@@ -19,15 +19,3 @@ Após o treinamento, o modelo é testado em um conjunto de dados separado. As pr
 A seção "Confusion Matrix" cria uma matriz de confusão para avaliar o desempenho do modelo em cada classe de emoção. A matriz é exibida em um gráfico de cores, onde os valores na diagonal principal representam as classificações corretas e os demais valores representam as classificações incorretas.
 
 Finalmente, há duas seções extras: "Image Facial Emotion Recognition Test" e "Live Facial Emotion Recognition". A primeira seção permite testar o modelo em uma única imagem facial, enquanto a segunda seção permite o reconhecimento de emoções em tempo real utilizando a câmera do dispositivo. As emoções são identificadas e mostradas na imagem ou janela de vídeo, respectivamente.
-
-# Atalhos
-
-Para economizar tempo e evitar a necessidade de executar a rede neural, você pode baixar o modelo neural e outros arquivos relacionados a este projeto no [OneDrive](https://sgapucminasbr-my.sharepoint.com/:f:/g/personal/889251_sga_pucminas_br/EgDa6sh5cJ1AuNBgsErz1vEBuYkn4IDD-r4qbkH3DkIk-A?e=nLJg1U).
-
-Os arquivos disponíveis para download incluem [lista de dados](www.exemplo.com/dados.csv) e [modelo pré-treinado](www.exemplo.com/modelo.pth). Ao baixar esses arquivos, você poderá pular a etapa de treinamento e começar diretamente com a inferência ou outros experimentos.
-
-Certifique-se de baixar os arquivos e colocá-los no diretório correto antes de executar o código. Consulte a documentação para obter detalhes sobre como usar esses arquivos no contexto deste projeto.
-
-Fique à vontade para explorar os recursos disponíveis e aproveitar ao máximo a funcionalidade sem precisar passar pelo treinamento completo.
-
-
