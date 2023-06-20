@@ -62,8 +62,11 @@ Existem várias abordagens para otimizar hiperparâmetros automaticamente, inclu
 Exemplo de código usando ajuste automático de hiperparâmetros:
  
 from sklearn.datasets import load_iris
+
 from sklearn.model_selection import RandomizedSearchCV
+
 from sklearn.ensemble import RandomForestClassifier
+
 from scipy.stats import randint
  
 # Carregando o conjunto de dados Iris
