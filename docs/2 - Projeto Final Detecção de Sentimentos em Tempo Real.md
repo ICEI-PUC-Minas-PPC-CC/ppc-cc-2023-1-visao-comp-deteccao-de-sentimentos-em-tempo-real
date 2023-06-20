@@ -59,7 +59,7 @@ Autoajuste de hiperparâmetro refere-se a técnicas e algoritmos que automatizam
 
 Existem várias abordagens para otimizar hiperparâmetros automaticamente, incluindo pesquisa em grade, pesquisa aleatória, otimização bayesiana, algoritmos genéticos e otimização de gradiente. Essas técnicas permitem que o sistema encontre com mais eficiência a configuração ideal de hiperparâmetros dadas as métricas de desempenho.
 
-Exemplo de código usando ajuste automático de hiperparâmetros:
+- Exemplo de código usando ajuste automático de hiperparâmetros:
  
 from sklearn.datasets import load_iris
 
