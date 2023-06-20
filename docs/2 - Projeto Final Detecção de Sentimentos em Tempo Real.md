@@ -9,8 +9,11 @@
 ## 1. Descrição Geral da Proposta
 
 O objetivo deste projeto é desenvolver um sistema de análise de sentimento em tempo real, usando técnicas de processamento de imagem e aprendizado de máquina. O objetivo é analisar as expressões faciais das pessoas em imagens para determinar suas principais emoções, como alegria, tristeza, raiva, surpresa, entre outros.
+
 O sistema proposto é baseado em um modelo de aprendizado de máquina treinado no conjunto de dados FER2013 contendo várias expressões faciais marcadas. O modelo pode reconhecer padrões em imagens que correspondem a diferentes expressões faciais e associá-los a diferentes emoções. O desenvolvimento é feito em Python usando bibliotecas de processamento de imagem, como OpenCV e scikit-image, e bibliotecas de aprendizado de máquina, como TensorFlow, Keras e scikit-learn.
+
 O sistema proposto pode ter diversas aplicações práticas, principalmente analisando as reações do público em eventos esportivos, analisando as expressões faciais de pacientes em tratamento de saúde mental e analisando o feedback dos clientes.
+
 Ao final do desenvolvimento, será testada a performance do aprendizado de máquina gerado, monitorando a atividade das pessoas que usam computadores para trabalhar e se divertir. O sistema analisará as expressões faciais de uma pessoa por meio de uma webcam para identificar e categorizar as emoções dominantes em várias atividades, como trabalhar, ler, assistir a vídeos e jogar. Isso fornece informações sobre os níveis de engajamento, satisfação e estresse dos usuários durante a interação com o computador, o que é útil para pesquisa de produtividade, bem-estar e usabilidade.
 
 ## 2. Ferramentas Tecnológicas
