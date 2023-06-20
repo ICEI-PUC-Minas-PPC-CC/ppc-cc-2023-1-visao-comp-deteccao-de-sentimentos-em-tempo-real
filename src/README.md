@@ -22,7 +22,7 @@ Finalmente, há duas seções extras: "Image Facial Emotion Recognition Test" e 
 
 # Atalhos
 
-Para economizar tempo e evitar a necessidade de executar a rede neural, você pode baixar os arquivos relacionados a este projeto usando o [link de download](www.exemplo.com).
+Para economizar tempo e evitar a necessidade de executar a rede neural, você pode baixar o modelo neural e outros arquivos relacionados a este projeto no [OneDrive]([www.exemplo.com](https://sgapucminasbr-my.sharepoint.com/:f:/g/personal/889251_sga_pucminas_br/EgDa6sh5cJ1AuNBgsErz1vEBuYkn4IDD-r4qbkH3DkIk-A?e=nLJg1U)).
 
 Os arquivos disponíveis para download incluem [lista de dados](www.exemplo.com/dados.csv) e [modelo pré-treinado](www.exemplo.com/modelo.pth). Ao baixar esses arquivos, você poderá pular a etapa de treinamento e começar diretamente com a inferência ou outros experimentos.
 
