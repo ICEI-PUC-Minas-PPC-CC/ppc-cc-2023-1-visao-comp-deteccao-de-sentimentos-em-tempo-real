@@ -1,4 +1,4 @@
-# Facial Emotion Recognition (FER) Model
+# Detecção de Sentimentos em Tempo Real
 
 ## Documentação de Instalação
 
