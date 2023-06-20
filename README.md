@@ -35,7 +35,7 @@
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li><a href="src/facial_emotion_recognition.ipynb"> Código Fonte</a></li>
 
 # Apresentação
 
