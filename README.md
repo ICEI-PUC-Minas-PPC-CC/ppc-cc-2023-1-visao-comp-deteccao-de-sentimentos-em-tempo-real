@@ -38,4 +38,4 @@ Fique à vontade para explorar os recursos disponíveis e aproveitar ao máximo 
 
 # Vídeo de Apresentação
 
-[Link para Vídeo no Loom](https://sgapucminasbr-my.sharepoint.com/:f:/g/personal/889251_sga_pucminas_br/EgDa6sh5cJ1AuNBgsErz1vEBuYkn4IDD-r4qbkH3DkIk-A?e=nLJg1U](https://www.loom.com/share/e718a8096b224f0c962b6b776e0e14e6?sid=421e3025-4ef6-421b-9307-3a6f7f0c4008).
+[Link para Vídeo no Loom](https://www.loom.com/share/e718a8096b224f0c962b6b776e0e14e6?sid=421e3025-4ef6-421b-9307-3a6f7f0c4008](https://www.loom.com/share/e718a8096b224f0c962b6b776e0e14e6?sid=421e3025-4ef6-421b-9307-3a6f7f0c4008)https://www.loom.com/share/e718a8096b224f0c962b6b776e0e14e6?sid=421e3025-4ef6-421b-9307-3a6f7f0c4008)
